@@ -11,12 +11,16 @@ pip install CacheCraft
 >>> cache.get('key')
 'value'
 ```
+<img width="1440" alt="Screenshot 2024-10-03 at 9 02 31 AM" src="https://github.com/user-attachments/assets/833394e4-1e42-4e84-a36e-7f0d9071e110">
+
 
 ## Validating through Testcase
 ```
 pip install pytest
 pytest tests/
 ```
+<img width="1440" alt="Screenshot 2024-10-03 at 9 16 48 AM" src="https://github.com/user-attachments/assets/c6d68388-3f2f-4884-8b5c-3666b17c74df">
+
 
 ## Project Structure
 ```
