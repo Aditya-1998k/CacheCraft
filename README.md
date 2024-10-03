@@ -2,6 +2,22 @@
 CacheCraft is a custom in-memory caching system designed to improve application performance by storing and retrieving data with low-latency access.
 `This Project is fully inspired by Memcache and some code have references from memcached github repo.`
 
+## How to Use?
+```
+pip install CacheCraft
+>>> from cachecraft.cache import CacheCraft
+>>> cache = CacheCraft()
+>>> cache.set('key', 'value')
+>>> cache.get('key')
+'value'
+```
+
+## Validating through Testcase
+```
+pip install pytest
+pytest tests/
+```
+
 ## Project Structure
 ```
 CacheCraft/
@@ -10,8 +26,7 @@ CacheCraft/
 │   ├── cache.py      # Core caching logic
 ├── tests/
 │   ├── test_cache.py # pytest
-├── setup.py          # Setup configuration for PyPI
-|── Dockerfile        # Dockerfile  
+├── setup.py          # Setup configuration for PyPI 
 ├── README.md         # Project description
 └── LICENSE           # License file
 ```
